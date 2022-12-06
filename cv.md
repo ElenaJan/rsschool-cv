@@ -1,18 +1,15 @@
 # Elena Janecek
--------------------
 
 ## Contact information:
 
 * **E-mail**: elena.janecek@gmail.com
 * **Telegram**: @ElenaJanPov
 
---------------------
 
 ## About me
 
 I'm a web designer with a great passion for coding. I want to become a frontend developer. I love frontend because of combining logic and creativity that are important to make a good website.
 
---------------
 
 ## Skills
 
@@ -25,7 +22,6 @@ I'm a web designer with a great passion for coding. I want to become a frontend 
 * Figma
 * Photoshop
 
--------------------
 
 ## Code example
 
@@ -41,7 +37,6 @@ function digitalRoot(n) {
 }
 ```
 
-------------
 
 ## Education
 
@@ -51,7 +46,6 @@ function digitalRoot(n) {
 * **Web development** — [Altshu](https://altshu.com/)
 * **JavaScript Tutorial** — [learn.javascript.ru](https://learn.javascript.ru/)
 
----------------------------
 
 ## Experience
 
@@ -59,7 +53,6 @@ I have two projects with HTML, CSS and JS. These projects were done during my st
 * [To do list](https://elenajan.github.io/To-do-list/)
 * [Weather app](https://elenajan.github.io/Weather/)
 
---------------------------
 
 ## Languages
 
