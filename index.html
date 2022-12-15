@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Noto+Serif:wght@700&display=swap"
+        rel="stylesheet">
+    <title>cv</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#summary" class="nav-link">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code" class="nav-link">Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#languages" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+                <div class="burger-menu"><img src="./assets/svg/burger.svg" alt="menu-icon"></div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <main class="main">
+            <section class="section profile" id="profile">
+                <div class="profile-image">
+                    <img src="./assets/img/IMG_2407.JPG" alt="My photo" class="profile-img">
+                </div>
+                <h1 class="title">Elena Janecek</h1>
+            </section>
+            <div class="line"></div>
+            <div class="main-container">
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-item item"><span class="section-span">E-mail</span>: <a
+                                href="mailto:elena.janecek@gmail.com" class="section-link">elena.janecek@gmail.com</a>
+                        </li>
+                        <li class="contacts-item item"><span class="section-span">Telegram</span>: <a
+                                href="https://t.me/ElenaJanPov" class="section-link">@ElenaJanPov</a></li>
+                    </ul>
+                </section>
+                <section class="section" id="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p class="text">Hi! My name is Elena. I am a web designer with a great passion for coding. I want to
+                        become a frontend developer. I love frontend because of combining logic and creativity that are
+                        important to make a good website.</p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-item item"><span class="section-span">Web development</span>: HTML, CSS,
+                            JavaScript</li>
+                        <li class="skills-item item"><span class="section-span">CSS preprocessor</span>: Sass</li>
+                        <li class="skills-item item"><span class="section-span">Frameworks and libraries</span>:
+                            Bootstrap, React</li>
+                        <li class="skills-item item"><span class="section-span">Version control</span>: Git, Github</li>
+                        <li class="skills-item item"><span class="section-span">Graphics</span>: Figma, Photoshop</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code Example</h2>
+                    <div class="code-container">
+                        <div class="code-image"></div>
+                        <pre>
+                            <code class="code">
+function digitalRoot(n) {
+    let result = 0;
+        String(n).split('').map(num => {
+            result += Number(num);
+        })
+    return (result &lt; 10) ? result : digitalRoot(result);
+}  
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul class="education-list">
+                        <li class="education-item item">
+                            <span class="section-span">Oriental Studies</span> — 
+                            <a href="https://spbu.ru/" class="section-link">St Petersburg University</a>
+                        </li>
+                        <li class="education-item item">
+                            <span class="section-span">Web design</span> — 
+                            <a href="https://netology.ru/" class="section-link">Netology</a>
+                        </li>
+                        <li class="education-item item">
+                            <span class="section-span">Visual Elements of User Interface Design</span> — 
+                            <a href="https://www.coursera.org/learn/visual-elements-user-interface-design/home/week/1" class="section-link">Coursera</a>
+                            </li>
+                        <li class="education-item item">
+                            <span class="section-span">Web development</span> — 
+                            <a href="https://altshu.com/" class="section-link">Altshu University</a>
+                        </li>
+                        <li class="education-item item"><span class="section-span">JavaScript Tutorial</span> — <a
+                                href="https://learn.javascript.ru/" class="section-link">learn.javascript.ru</a></li>
+                        <li class="education-item item">
+                            <span class="section-span">JavaScript</span> — 
+                            <a href="https://www.udemy.com/course/javascript-ru/" class="section-link">Udemy</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="text">I have two projects with HTML, CSS and JS and one with HTML, Sass, Bootstrap and
+                        React. These projects were done during my studies in Altshu.</p>
+                    <ul class="projects-list">
+                        <li class="projects-item item">
+                            <a href="https://elenajan.github.io/To-do-list/" class="section-link">To do list</a>
+                            </li>
+                        <li class="projects-item item">
+                            <a href="https://elenajan.github.io/Weather/" class="section-link">Wheather app</a>
+                        </li>
+                        <li class="projects-item item">
+                            <a href="https://elenajan.github.io/React-To-Do-List/" class="section-link">React to do list</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul class="languages-list">
+                        <li class="languages-item item">Russian</li>
+                        <li class="languages-item item">Persian</li>
+                        <li class="languages-item item">English — B2</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="info">
+                <a href="https://github.com/ElenaJan" class="info-link">Elena Janecek</a>
+                <p class="text info-text">2022</p>
+            </div>
+            <div class="logo">
+                <a href="https://rs.school/js/" class="rsschool-link">
+                    <img src="./assets/svg/rs_school_js.svg" alt="Rs school logo" class="rsschool-logo">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
