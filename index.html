@@ -5,165 +5,259 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/assets/favicon.ico">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Noto+Serif:wght@700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mulish:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>cv</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#contacts" class="nav-link">Contacts</a>
+    <div class="container">
+        <header class="header">
+            <div class="header__image">
+                <img src="./assets/img/code.png" alt="Code is love image">
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#contacts" class="header__nav-link">Contacts</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#summary" class="nav-link">Summary</a>
+                    <li class="header__nav-item">
+                        <a href="#summary" class="header__nav-link">Summary</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link">Skills</a>
+                    <li class="header__nav-item">
+                        <a href="#skills" class="header__nav-link">Skills</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#code" class="nav-link">Code</a>
+                    <li class="header__nav-item">
+                        <a href="#code" class="header__nav-link">Code</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#education" class="nav-link">Education</a>
+                    <li class="header__nav-item">
+                        <a href="#education" class="header__nav-link">Education</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link">Projects</a>
+                    <li class="header__nav-item">
+                        <a href="#projects" class="header__nav-link">Projects</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#languages" class="nav-link">Languages</a>
+                    <li class="header__nav-item">
+                        <a href="#languages" class="header__nav-link">Languages</a>
                     </li>
                 </ul>
-                <div class="burger-menu"><img src="./assets/svg/burger.svg" alt="menu-icon"></div>
+                <div class="header__burger-menu"><img src="./assets/svg/burger.svg" alt="menu-icon"></div>
             </nav>
-        </div>
-    </header>
-    <div class="container">
+        </header>
         <main class="main">
-            <section class="section profile" id="profile">
-                <div class="profile-image">
-                    <img src="./assets/img/IMG_2407.JPG" alt="My photo" class="profile-img">
-                </div>
-                <h1 class="title">Elena Janecek</h1>
-            </section>
-            <div class="line"></div>
-            <div class="main-container">
-                <section class="section" id="contacts">
-                    <h2 class="section-title">Contacts</h2>
-                    <ul class="contacts-list">
-                        <li class="contacts-item item"><span class="section-span">E-mail</span>: <a
-                                href="mailto:elena.janecek@gmail.com" class="section-link">elena.janecek@gmail.com</a>
+            <div class="wrapper-1">
+                <section class="section profile" id="profile">
+                    <div class="profile__image">
+                        <img src="./assets/img/IMG_2407.JPG" alt="My photo" class="profile__img">
+                    </div>
+                    <div class="profile__info">
+                        <h1 class="profile__name">Elena Janecek</h1>
+                        <h3 class="profile__description">Frontend Student</h3>
+                        <h3 class="profile__description">Web designer</h3>
+                    </div>
+                </section>
+                <section class="section contacts" id="contacts">
+                    <h2 class="section__title">Contacts</h2>
+                    <ul class="contacts__list">
+                        <li class="contacts__item contacts__email">
+                            <img src="./assets/svg/letter.svg" alt="letter icon" class="contacts__icon"> 
+                            <a href="mailto:elena.janecek@gmail.com" class="section__link">elena.janecek@gmail.com</a>
                         </li>
-                        <li class="contacts-item item"><span class="section-span">Telegram</span>: <a
-                                href="https://t.me/ElenaJanPov" class="section-link">@ElenaJanPov</a></li>
+                        <li class="contacts__item contacts__telegram">
+                            <img src="./assets/svg/telegram.svg" alt="telegram icon" class="contacts__icon">
+                            <a href="https://t.me/ElenaJanPov" class="section__link">@ElenaJanPov</a>
+                        </li>
+                        <li class="contacts__item">
+                            <img src="./assets/svg/location.svg" alt="location icon" class="contacts__icon">
+                            St Petersburg, Russia</li>
                     </ul>
                 </section>
-                <section class="section" id="summary">
-                    <h2 class="section-title">Summary</h2>
-                    <p class="text">Hi! My name is Elena. I am a web designer with a great passion for coding. I want to
-                        become a frontend developer. I love frontend because of combining logic and creativity that are
-                        important to make a good website.</p>
+                <section class="section education" id="education">
+                    <h2 class="section__title">Education</h2>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <span class="section__span">Oriental Studies</span> — 
+                            <a href="https://spbu.ru/" class="section__link">St Petersburg University</a>
+                        </li>
+                        <li class="education__item">
+                            <span class="section__span">Web design</span> — 
+                            <a href="https://netology.ru/" class="section__link">Netology</a>
+                        </li>
+                        <li class="education__item">
+                            <span class="section__span">Visual Elements of User Interface Design</span> — 
+                            <a href="https://www.coursera.org/learn/visual-elements-user-interface-design/home/week/1" class="section__link">Coursera</a>
+                            </li>
+                        <li class="education__item">
+                            <span class="section__span">Web development</span> — 
+                            <a href="https://altshu.com/" class="section__link">Altshu University</a>
+                        </li>
+                        <li class="education__item"><span class="section__span">JavaScript Tutorial</span> — <a
+                                href="https://learn.javascript.ru/" class="section__link">learn.javascript.ru</a></li>
+                        <li class="education__item">
+                            <span class="section__span">JavaScript</span> — 
+                            <a href="https://www.udemy.com/course/javascript-ru/" class="section__link">Udemy</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section languages" id="languages">
+                    <h2 class="section__title">Languages</h2>
+                    <ul class="languages__list">
+                        <li class="languages__item">Russian</li>
+                        <li class="languages__item">Persian</li>
+                        <li class="languages__item">English — B2</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="wrapper-2">
+                <section class="section summary" id="summary">
+                    <div class="section__headline-container">
+                        <h2 class="section__headline">Summary</h2>
+                        <div class="line"></div>
+                    </div>
+                    <p class="section__text">Hi! My name is Elena. I am a web designer with a great passion for coding. I want to become a frontend developer. I love frontend because of combining logic and creativity that are important to create beautiful and performant products with delightful user experiences.</p>
                 </section>
                 <section class="section" id="skills">
-                    <h2 class="section-title">Skills</h2>
-                    <ul class="skills-list">
-                        <li class="skills-item item"><span class="section-span">Web development</span>: HTML, CSS,
-                            JavaScript</li>
-                        <li class="skills-item item"><span class="section-span">CSS preprocessor</span>: Sass</li>
-                        <li class="skills-item item"><span class="section-span">Frameworks and libraries</span>:
-                            Bootstrap, React</li>
-                        <li class="skills-item item"><span class="section-span">Version control</span>: Git, Github</li>
-                        <li class="skills-item item"><span class="section-span">Graphics</span>: Figma, Photoshop</li>
+                    <div class="section__headline-container">
+                        <h2 class="section__headline">Skills</h2>
+                        <div class="line"></div>
+                    </div>
+                    <ul class="skills__list">
+                        <li class="skills__section">
+                            <h3 class="skills__title">Web Development</h3>
+                            <ul class="skills__inner-list">
+                                <li class="skills__item">
+                                    <img src="./assets/svg/HTML.svg" alt="html icon">
+                                    HTML
+                                </li>
+                                <li class="skills__item">
+                                    <img src="./assets/svg/Css.svg" alt="css icon">
+                                    Css
+                                </li>
+                                <li class="skills__item">
+                                    <img src="./assets/svg/HTML.svg" alt="javascript icon">
+                                    JavaScript
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="skills__section">
+                            <h3 class="skills__title">CSS Preprocessor</h3>
+                            <ul class="skills__inner-list">
+                                <li class="skills__item">
+                                    <img src="./assets/svg/Sass.svg" alt="sass icon">
+                                    Sass
+                                </li>
+                            </ul>
+                        </li>    
+                        <li class="skills__section">
+                            <h3 class="skills__title">Frameworks and Libraries</h3>
+                            <ul class="skills__inner-list">
+                                <li class="skills__item">
+                                    <img src="./assets/svg/React.svg" alt="react icon">
+                                    React
+                                </li>
+                                <li class="skills__item">
+                                    <img src="./assets/svg/Bootstrap.svg" alt="bootstrap icon">
+                                    Bootstrap
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="skills__section">
+                            <h3 class="skills__title">Version control</h3>
+                            <ul class="skills__inner-list">
+                                <li class="skills__item">
+                                    <img src="./assets/svg/Git.svg" alt="git icon">
+                                    Git
+                                </li>
+                                <li class="skills__item">
+                                    <img src="./assets/svg/Github.svg" alt="github icon">
+                                    Github
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="skills__section">
+                            <h3 class="skills__title">Graphics</h3>
+                            <ul class="skills__inner-list">
+                                <li class="skills__item">
+                                    <img src="./assets/svg/Figma.svg" alt="figma icon">
+                                    Figma
+                                </li>
+                                <li class="skills__item">
+                                    <img src="./assets/svg/Photoshop.svg" alt="photoshop icon">
+                                    Photoshop
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </section>
-                <section class="section" id="code">
-                    <h2 class="section-title">Code Example</h2>
-                    <div class="code-container">
-                        <div class="code-image"></div>
-                        <pre>
-                            <code class="code">
-function digitalRoot(n) {
-    let result = 0;
-        String(n).split('').map(num => {
-            result += Number(num);
-        })
-    return (result &lt; 10) ? result : digitalRoot(result);
-}  
+                <section class="section code" id="code">
+                    <div class="section__headline-container">
+                        <h2 class="section__headline">Code Example</h2>
+                        <div class="line"></div>
+                    </div>
+                    <div class="code__wrapper">
+                        <div class="code__image">
+                            <img src="./assets/img/clip.png" alt="clip image">
+                        </div>
+                        <pre class="code__pre">
+                            <code class="code__text">
+function toCamelCase(str){
+  let arr = str.split('');
+  let newArr = [];
+  for(let i = 0; i &lt; arr.length; i++) {
+    if(arr[i - 1] == '_' || arr[i - 1] == '-') {
+      newArr.push(arr[i].toUpperCase());
+    } else {
+      newArr.push(arr[i]);
+    }
+  }
+  let newStr = newArr.join('').replace(/[-_]/g, '');
+  return newStr;
+}
                             </code>
                         </pre>
                     </div>
                 </section>
-                <section class="section" id="education">
-                    <h2 class="section-title">Education</h2>
-                    <ul class="education-list">
-                        <li class="education-item item">
-                            <span class="section-span">Oriental Studies</span> — 
-                            <a href="https://spbu.ru/" class="section-link">St Petersburg University</a>
-                        </li>
-                        <li class="education-item item">
-                            <span class="section-span">Web design</span> — 
-                            <a href="https://netology.ru/" class="section-link">Netology</a>
-                        </li>
-                        <li class="education-item item">
-                            <span class="section-span">Visual Elements of User Interface Design</span> — 
-                            <a href="https://www.coursera.org/learn/visual-elements-user-interface-design/home/week/1" class="section-link">Coursera</a>
-                            </li>
-                        <li class="education-item item">
-                            <span class="section-span">Web development</span> — 
-                            <a href="https://altshu.com/" class="section-link">Altshu University</a>
-                        </li>
-                        <li class="education-item item"><span class="section-span">JavaScript Tutorial</span> — <a
-                                href="https://learn.javascript.ru/" class="section-link">learn.javascript.ru</a></li>
-                        <li class="education-item item">
-                            <span class="section-span">JavaScript</span> — 
-                            <a href="https://www.udemy.com/course/javascript-ru/" class="section-link">Udemy</a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="section" id="projects">
-                    <h2 class="section-title">Projects</h2>
-                    <p class="text">I have two projects with HTML, CSS and JS and one with HTML, Sass, Bootstrap and
+                <section class="section projects" id="projects">
+                    <div class="section__headline-container">
+                        <h2 class="section__headline">Projects</h2>
+                        <div class="line"></div>
+                    </div>
+                    <p class="section__text">I have two projects with HTML, CSS and JS and one with HTML, Sass, Bootstrap and
                         React. These projects were done during my studies in Altshu.</p>
-                    <ul class="projects-list">
-                        <li class="projects-item item">
-                            <a href="https://elenajan.github.io/To-do-list/" class="section-link">To do list</a>
-                            </li>
-                        <li class="projects-item item">
-                            <a href="https://elenajan.github.io/Weather/" class="section-link">Wheather app</a>
+                    <ul class="projects__list">
+                        <li class="projects__item">
+                            To Do List
+                            <a href="https://elenajan.github.io/To-do-list/" class="section__link">
+                                <img src="./assets/img/toDo.png" alt="project screenshot">
+                            </a>
                         </li>
-                        <li class="projects-item item">
-                            <a href="https://elenajan.github.io/React-To-Do-List/" class="section-link">React to do list</a>
+                        <li class="projects__item">
+                            Wheather app
+                            <a href="https://elenajan.github.io/Weather/" class="section__link">
+                                <img src="./assets/img/weather.png" alt="project screenshot">
+                            </a>
                         </li>
-                    </ul>
-                </section>
-                <section class="section" id="languages">
-                    <h2 class="section-title">Languages</h2>
-                    <ul class="languages-list">
-                        <li class="languages-item item">Russian</li>
-                        <li class="languages-item item">Persian</li>
-                        <li class="languages-item item">English — B2</li>
+                        <li class="projects__item">
+                            React To Do List
+                            <a href="https://elenajan.github.io/React-To-Do-List/" class="section__link">
+                                <img src="./assets/img/react.png" alt="project screenshot">
+                            </a>
+                        </li>
                     </ul>
                 </section>
             </div>
         </main>
+        <footer class="footer">
+                <div class="info">
+                    <a href="https://github.com/ElenaJan" class="info__link">Elena Janecek</a>
+                    <p class="info__text">2022</p>
+                </div>
+                <div class="logo">
+                    <a href="https://rs.school/js/" class="rsschool-link">
+                        <img src="./assets/svg/rs_school_js.svg" alt="Rs school logo" class="logo__img">
+                    </a>
+                </div>
+        </footer>
     </div>
-    <footer class="footer">
-        <div class="container footer-container">
-            <div class="info">
-                <a href="https://github.com/ElenaJan" class="info-link">Elena Janecek</a>
-                <p class="text info-text">2022</p>
-            </div>
-            <div class="logo">
-                <a href="https://rs.school/js/" class="rsschool-link">
-                    <img src="./assets/svg/rs_school_js.svg" alt="Rs school logo" class="rsschool-logo">
-                </a>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
