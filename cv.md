@@ -37,3 +37,18 @@ function digitalRoot(n) {
 }
 ```
 
+## Education
+
+* **Oriental Studies** — [St Petersburg University](https://spbu.ru/)
+* **Wed design** — [Netology](https://netology.ru/)
+* **UI design** — [Coursera](https://www.coursera.org/)
+* **Web development** — [Altshu](https://altshu.com/)
+* **JavaScript Tutorial** — [learn.javascript.ru](https://learn.javascript.ru/)
+
+
+## Experience
+
+I have two projects with HTML, CSS and JS. These projects were done during my studies in Altshu.
+* [To do list](https://elenajan.github.io/To-do-list/)
+* [Weather app](https://elenajan.github.io/Weather/)
+
