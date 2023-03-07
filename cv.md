@@ -52,3 +52,10 @@ I have two projects with HTML, CSS and JS. These projects were done during my st
 * [To do list](https://elenajan.github.io/To-do-list/)
 * [Weather app](https://elenajan.github.io/Weather/)
 
+
+
+## Languages
+
+* **Russian** 
+* **Persian** 
+* **English** — B2
